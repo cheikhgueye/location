@@ -4,7 +4,7 @@
           $auth = new connexion();
           $auth->login = $login;
           $auth->psw = $pwrd;
-          var_dump($auth);
+
           if ($login == '') {
               header('location:index1.php?p=authentification&amp e=1');
           } elseif ($pwrd == '') {

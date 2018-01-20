@@ -6,7 +6,7 @@
          use namespaces\dao\utilisateur;
 
          $u = new utilisateur();
-       //  var_dump($u);
+
          $u->nom_comlet = $nomc;
          $u->login = $login;
          $u->tel = $tel;
